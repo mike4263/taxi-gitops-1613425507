@@ -1,0 +1,15 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: git-host-access-token
+  namespace: cicd
+spec:
+  encryptedData:
+    token: AgAT9uxRhJETUFCzI4YPkLN4dw2SVLpg4qjgXG+aZpF2m9wi8AQ1kWvSDCKiWQ7+cKaDrBIQSvHYc2Kr+nhhPCVmdptBXMQr1o2fv34ise9SU+99zeMPpXpsH0CZbaCFExbf1XXUsOdZrKI8/anjJcWedW6fkoAPBca53Y8kNRyHWXjFlrhxY2rd/qMUyaYoH6FvwGiXVyEEK/5z4mTq08Sd2j14kz33PLJVowGJ6NQaCeuHnl2XjMyXxe3YaNtCWwPyO1M3eJQNetjjIKAwhk1t0W2eJ+5mP3ZZk4dT9vNP1YCswAaEnU4hoSXZYa3aq3loiLj1X+TrjId/S1Jxovy23h8FAaad5Dsqig67Yszfr6oGuhVI8PjyhMn47AjvV2tDduPnfAzReCmnrHnbD1kAeEaGgQHYJ9vPk7U2kqDyg7GgpWe5PW8DuAfTUR43nkWSFvQqIgeWD4ZOCqkaRDPklHyzvN+YGzJ1eF0uQxECiy7JjZa4bsln5dKBIXFnZ7dfCGALjF5MSt4Ml6tPM5HnSwKSquZ5KrgnRv+QRgSAfOaWQSKve9ec1qZJYs9I1LLF69M3a+zZY9Q4/R2Lj9nyOWwYnqBwEZFomnDP3Wan2RhHoi3jGkvp/ys4AS1cpUVFohfIpRhiDr/YJ1t0GMOdHwwkXlu5R2ZzzvSYKvqrahcArXvlkCVgYduPns5xBKgZGUzhqtcdsycR4mJkI0MGpxuDEvEF90r7fXT5Q1CHR5g0xm6pqT95
+  template:
+    metadata:
+      creationTimestamp: null
+      name: git-host-access-token
+      namespace: cicd
+    type: Opaque

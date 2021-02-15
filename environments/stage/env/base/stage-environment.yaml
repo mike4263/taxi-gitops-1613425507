@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    app.openshift.io/vcs-uri: https://github.com/mike4263/taxi-gitops-1613425507.git?ref=main
+  creationTimestamp: null
+  name: stage
+spec: {}
+status: {}
