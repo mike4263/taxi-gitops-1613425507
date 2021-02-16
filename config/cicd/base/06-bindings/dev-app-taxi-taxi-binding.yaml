@@ -9,5 +9,5 @@ spec:
   - name: imageRepo
     value: image-registry.openshift-image-registry.svc:5000/cicd/mike-taxi
   - name: tlsVerify
-    value: "true"
+    value: "false"
 status: {}
