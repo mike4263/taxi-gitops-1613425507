@@ -10,7 +10,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: environments\dev\env\overlays
+    path: environments/dev/env/overlays
     repoURL: https://github.com/mike4263/taxi-gitops-1613425507.git
   syncPolicy:
     automated:
