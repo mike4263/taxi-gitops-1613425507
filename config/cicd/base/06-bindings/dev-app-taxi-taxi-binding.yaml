@@ -7,7 +7,7 @@ metadata:
 spec:
   params:
   - name: imageRepo
-    value: quay-devsecops5.apps.ocp.box1.org/mike/taxi
+    value: image-registry.openshift-image-registry.svc:5000/cicd/mike-taxi
   - name: tlsVerify
     value: "true"
 status: {}
